@@ -1,0 +1,68 @@
+
+.App{
+  background-color: #f8d4bd;
+  min-height: 100vh;
+}
+.main{
+  background: #f8d4bd;
+  padding: 1rem;
+  grid-area: content;
+}
+.footer{
+  display: flex;
+  background-color: #f8d4bd;
+  align-items: center;
+  font-size: 0.8rem;
+  grid-area: footer;
+  justify-content: center;
+  
+}
+.search_button{
+  left: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f6f2;
+  bottom: 4rem;
+  cursor: pointer;
+  box-shadow: 0 0 0.2rem rgba(0,0,0,.5);
+  height: 2.5rem;
+  width: 2.5rem;
+  z-index: 1;
+  position: fixed;
+  border-radius: 50%;
+}
+.theme_button{
+  right: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f6f2;
+  bottom: 4rem;
+  cursor: pointer;
+  box-shadow: 0 0 0.2rem rgba(0,0,0,.5);
+  height: 2.5rem;
+  width: 2.5rem;
+  z-index: 1;
+  position: fixed;
+  border-radius: 50%;
+}
+.switch{
+  width: 1.5rem;
+  height: 0.75rem;
+  background-color: #f8d4bd;
+  border-radius: 40px;
+  position: relative;
+}
+.slider_round{
+  width: 0.75rem;
+  background-color: black;
+  height: 0.75rem;
+  position: absolute;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+.theme_button.active .slider_round {
+
+  transform: translateX(12px);
+}

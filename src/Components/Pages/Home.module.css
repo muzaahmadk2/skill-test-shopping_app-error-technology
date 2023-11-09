@@ -1,0 +1,82 @@
+.products{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 1rem;
+}
+.product_design{
+    background-color: #fa8907;
+    border-radius: 5rem;
+    height: 18rem;
+    position: relative;
+    overflow: hidden;
+}
+.product_nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem;
+    position: relative;
+}
+.link{
+    font-size: 1rem;
+}
+.homelink{
+    color: #fff;
+}
+.title{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.sorting{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+.sorting select{
+    background-color: #f1d6c4;
+    border: none;
+    border-radius: 1rem;
+    font-family: Segoe UI,Tahoma,Geneva,Verdana,sans-serif;
+    outline: none;
+}
+.sorting option{
+    background-color: #ff9500;
+    color: #fff;
+    font-size: 0.8rem;
+}
+.product_container{
+    display: flex;
+    justify-content: center;
+}
+.product_cards{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    flex-wrap: wrap;
+    margin-bottom: -10rem;
+    top: -10rem;
+}
+.related_product{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+.rheader{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 1rem 0;
+}
+.rheader h1{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.related_cards{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    flex-wrap: wrap;
+}
